@@ -1,0 +1,11 @@
+node_modules/
+git config --global user.name "shubham kumar"
+git config --global user.email "shubhamkumar21029@gmail.com"
+git init
+git add 
+git commit -m "Initial commit"
+git status    # just to see
+$ ssh-keygen -t rsa -b 4096 -C "shubhamkumar21029@gmail.com"
+tail <path to id_rsa.rub>   # add this key to your github account
+git remote add origin <ssh url.git>
+git push origin master
